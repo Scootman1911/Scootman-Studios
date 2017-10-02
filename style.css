@@ -87,9 +87,10 @@ img {
 }
 
 .column {
+    display: block;
+    padding: 1.25vw;
     float: left;
     width: 45%;
-
 }
 
 
@@ -102,11 +103,17 @@ img {
 .covers {
 	width: 100%;
 	height: auto;
-	padding-top: 1vw;
-	padding-bottom: 1vw;
-
+    padding: 1vw;
 }
 
 ul {
     font-size: 5px;
+}
+
+.menuLogo {
+    width: 75%;
+    height: auto;
+    padding-left: 32px;
+ 
+
 }

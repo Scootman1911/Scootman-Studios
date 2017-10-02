@@ -9,6 +9,11 @@
 
 	<body>
 
+<!--WIP Warning -->
+	<script>
+	window.alert("Warning: This website is currently under construction");
+	</script>
+
 <!-- Menu -->
 		<div id="main">
 			<span style="font-size:16px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
@@ -24,31 +29,26 @@
 		<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="index.html">Home</a>
+			<a href="store.html">Beats for Sale</a>
 			<a href="freeDownloads.html">Free Downloads</a>
 				<ul>
 					<li><a href="freeDownloads.html#Remix">Remixes & Dubs</a></li>
 					<li><a href="freeDownloads.html#Instrumentals">Instrumentals</a></li>
 				</ul>
 			<a href="about.html">About</a>
+
+			<img class="menuLogo" src="Scootman_Studios_logo.png">
 		</div>
-		<script>
-			function openNav() {
-    		document.getElementById("mySidenav").style.width = "250px";
-    		document.getElementById("main").style.marginLeft = "250px";
-    		document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-			}
+		<script src="scripts/navMenu.js"></script>
 
-			function closeNav() {
-    		document.getElementById("mySidenav").style.width = "0";
-    		document.getElementById("main").style.marginLeft= "0";
-    		document.body.style.backgroundColor = "white";
-			}
-		</script>
-
+<!-- Nav Bar -->
 		<div class="navBar">
 			<div class="center">
-				<a class="navText" href="https://soundcloud.com/scott-honda"><img class="icon" src="soundcloud.png"></a> 
-				<a class="navText" href="https://scootmanstudios.bandcamp.com/"><img class="icon" src="bandcamp.png"></a>
+				<a class="navText" href="https://soundcloud.com/scott-honda"><img class="icon" src="images/soundcloud.png"></a>
+				<a class="navText" href="https://scootmanstudios.bandcamp.com/"><img class="icon" src="images/bandcamp.png"></a>
+				<a class="navText" href="https://www.audiomack.com/artist/scoot"><img class="icon" src=" images/audiomack.png"></a>
+				<a class="navText" href="https://www.reverbnation.com/scootmanstudios"><img class="icon" src="images/reverbnation.png"></a>
+				<a class="navText" href="http://www.beatstars.com/scootman_studios"><img class="icon" src="images/Beatstars.png"></a>
 			</div>
 		</div>
 
