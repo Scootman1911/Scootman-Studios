@@ -114,9 +114,16 @@ ul {
     width: 75%;
     height: auto;
     padding-left: 32px;
- 
 
 }
 .store {
-    padding: 1vw;
+    padding: 2vw;
+}
+
+.contact {
+    float: left;
+}
+
+.contact p{
+    padding-bottom: 2vw;
 }
